@@ -1,24 +1,56 @@
-"use strict"//treat all Js code as newer version
-// alert(3+3) . we are using nodejs not browser
-console.log(3+3) 
-let name="Amit";
-let age=18;
-let isLoggedIn=false;
-// number =>2 to power 53
-//bigint
+console.log(typeof (7));//number
+console.log(typeof -90);//number
+console.log(typeof 8.9);//number
+console.log(typeof "Hello");//string
 
-//string=>""
-//boolen=>true and false
+console.log( typeof 'Amit Kumar')//string
 
-//null => standalone value
+console.log( typeof "");//string
 
-//undefined=>
-//symbol=>unique 
+console.log(typeof ``);//string
+
+let number='100';
+console.log(typeof number);
+
+let newnumber=Number(number);
+console.log(typeof newnumber);
+
+console.log(+'100');
+console.log(-'100');
+
+// console.log(typeof('100'));
+
+console.log(+"Amit");//Nan
+
+let srt="Amit";
+console.log(typeof srt);
+
+let nu=Number(srt);
+console.log(nu);
+
+let number1=100;
+let string1=String(number1);
+console.log(string1);
+console.log(100 +"")
+console.log("2"+100);
+console.log(typeof true);
+console.log(typeof false);
+
+let bool=true;
+let boonumber=Number(bool);
+console.log(boonumber);
+console.log(+true);
 
 
+//undefined
 
 
-//object 
+console.log(typeof undefined);
 
-console.log(typeof undefined)
+
+//null
+
 console.log(typeof null)
+console.log(+null);
+console.log(+undefined);
+
